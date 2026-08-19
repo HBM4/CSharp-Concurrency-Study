@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SimpleThreadApp", "03_Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SimpleThreadApp2", "03_SimpleThreadApp2\03_SimpleThreadApp2.csproj", "{C47EA878-0659-41BD-9C43-8D3195D37C78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Async_and_Await", "04_Async_and_Await\04_Async_and_Await.csproj", "{FE36C1EE-D335-40D7-A7AF-FDB067E8D154}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C47EA878-0659-41BD-9C43-8D3195D37C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C47EA878-0659-41BD-9C43-8D3195D37C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C47EA878-0659-41BD-9C43-8D3195D37C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE36C1EE-D335-40D7-A7AF-FDB067E8D154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE36C1EE-D335-40D7-A7AF-FDB067E8D154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE36C1EE-D335-40D7-A7AF-FDB067E8D154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE36C1EE-D335-40D7-A7AF-FDB067E8D154}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
