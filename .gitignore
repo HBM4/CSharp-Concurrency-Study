@@ -399,3 +399,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Local test project
+test/
+
+# GitHub configuration folder
+.github/
