@@ -23,6 +23,7 @@ namespace _06_Ui_Thread
             // 클릭 이벤트에 async 람다 등록, UI 스레드를 막지 않고 비동기 처리
             button.Click += async (sender, e) => await HandleButtonClickAsync(this);
 
+            // 버튼을 창의 Content로 설정
             this.Content = button;
         }
 
