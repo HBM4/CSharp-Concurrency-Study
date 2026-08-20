@@ -1,4 +1,5 @@
-﻿namespace _04_Async_and_Await2
+﻿// 데이터 보호 예제
+namespace _04_Async_and_Await2
 {
     internal class Program
     {
