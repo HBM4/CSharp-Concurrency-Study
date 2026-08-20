@@ -30,10 +30,38 @@
             Parallel.For(0, numbers.Length, i =>
             {
                 numbers[i] = numbers[i] * numbers[i];
-                Thread.Sleep(2000);
             });
 
-            Console.WriteLine("병렬 처리 후:");
+            Console.WriteLine("Parallel.For 처리 후:");
+            foreach (var number in numbers)
+            {
+                Console.Write($"{number} ");
+            }
+            Console.WriteLine();
+
+            // Parallel.ForEach 테스트를 위해 배열을 초기값으로 재설정
+            numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+
+            // Parallel.ForEach는 컬렉션(IEnumerable)의 각 요소를
+            // 여러 스레드에서 동시에 병렬로 순회하며 처리하는 기능입니다.
+
+            // 첫 번째 인자 numbers는 순회할 대상 컬렉션입니다.
+
+            // 두 번째 인자는 각 요소마다 실행할 람다식(delegate)이며,
+            // 매개변수 number는 현재 처리 중인 요소 값,
+            // state는 병렬 루프의 상태를 제어할 수 있는
+            // ParallelLoopState 객체입니다.
+            // (예: state.Break(), state.Stop() 등으로 루프를 중단할 수 있음)
+
+            // Parallel.For와 마찬가지로 순차적으로 처리되는 것이 아니라
+            // 여러 스레드가 동시에 서로 다른 요소를 처리합니다.
+            Parallel.ForEach(numbers, (number, state) =>
+            {
+                numbers[number - 1] = number * number;
+            });
+
+            Console.WriteLine("Parallel.ForEach 처리 후:");
             foreach (var number in numbers)
             {
                 Console.Write($"{number} ");
