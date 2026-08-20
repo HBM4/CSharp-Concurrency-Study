@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Parallel", "05_Parallel\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Ui_Thread", "06_Ui_Thread\06_Ui_Thread.csproj", "{1C124AF8-0D27-4E15-A40C-0AD2F80C5FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Task_CancellationToken", "07_Task_CancellationToken\07_Task_CancellationToken.csproj", "{45C5A398-F4F1-447F-99BE-D03204D27C9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{1C124AF8-0D27-4E15-A40C-0AD2F80C5FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C124AF8-0D27-4E15-A40C-0AD2F80C5FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C124AF8-0D27-4E15-A40C-0AD2F80C5FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C5A398-F4F1-447F-99BE-D03204D27C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C5A398-F4F1-447F-99BE-D03204D27C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C5A398-F4F1-447F-99BE-D03204D27C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C5A398-F4F1-447F-99BE-D03204D27C9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
