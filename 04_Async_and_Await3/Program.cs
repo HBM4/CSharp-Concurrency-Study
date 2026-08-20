@@ -37,7 +37,9 @@ namespace _04_Async_and_Await3
             // 모든 작업이 완료될 때까지 기다립니다.
             await Task.WhenAll(inputTask, computationTask, outputTask);
 
-            Console.WriteLine("\n모든 작업 완료");
+            Console.WriteLine($"\n입력 결과: {inputTask.Result}");
+            Console.WriteLine($"연산 결과: {computationTask.Result}");
+            Console.WriteLine("모든 작업 완료");
         }
 
         static async Task<string> InputAsync()
