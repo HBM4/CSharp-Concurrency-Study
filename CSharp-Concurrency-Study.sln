@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Async_and_Await", "04_As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Async_and_Await2", "04_Async_and_Await2\04_Async_and_Await2.csproj", "{18EF431B-1CAC-4A43-AA17-4CBC6BFD1DEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Async_and_Await3", "04_Async_and_Await3\04_Async_and_Await3.csproj", "{0A744E09-E3E7-4B5A-B170-2199A5055333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{18EF431B-1CAC-4A43-AA17-4CBC6BFD1DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18EF431B-1CAC-4A43-AA17-4CBC6BFD1DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18EF431B-1CAC-4A43-AA17-4CBC6BFD1DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A744E09-E3E7-4B5A-B170-2199A5055333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A744E09-E3E7-4B5A-B170-2199A5055333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A744E09-E3E7-4B5A-B170-2199A5055333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A744E09-E3E7-4B5A-B170-2199A5055333}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
