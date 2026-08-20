@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Ui_Thread", "06_Ui_Threa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Task_CancellationToken", "07_Task_CancellationToken\07_Task_CancellationToken.csproj", "{45C5A398-F4F1-447F-99BE-D03204D27C9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Task_Delay", "08_Task_Delay\08_Task_Delay.csproj", "{BE372441-C7DE-43E5-8F91-41FA12CF8D9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{45C5A398-F4F1-447F-99BE-D03204D27C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45C5A398-F4F1-447F-99BE-D03204D27C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45C5A398-F4F1-447F-99BE-D03204D27C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE372441-C7DE-43E5-8F91-41FA12CF8D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE372441-C7DE-43E5-8F91-41FA12CF8D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE372441-C7DE-43E5-8F91-41FA12CF8D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE372441-C7DE-43E5-8F91-41FA12CF8D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
